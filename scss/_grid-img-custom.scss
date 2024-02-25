@@ -1,0 +1,11 @@
+.grid-costum-img{
+      overflow: hidden;
+      transition: 1s ease;
+      img{
+            object-fit: cover;
+      }
+      img:hover{
+            transition: 1s ease;
+            transform: scale(1.1);
+      }
+}

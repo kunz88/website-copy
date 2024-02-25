@@ -1,0 +1,22 @@
+.custom-card{
+      border:0;
+
+}
+.card-img-custom {
+      img {
+            height: auto;
+            width: 50px;
+      }
+}
+
+.card-text-custom {
+      h5 {
+            font-size: 18px;
+            line-height: 1.2em;
+            font-weight: 800;
+      }
+      p {
+            font-size: 14px;
+            color: #666;
+      }
+}

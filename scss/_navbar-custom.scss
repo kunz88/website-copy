@@ -1,0 +1,42 @@
+.navbar-expand-custom {
+      border-bottom: $border-size #eaeaea;
+      font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+
+.navbar-collapse-custom {
+      justify-content: end;
+}
+
+
+.btn-custom-container {
+      justify-content: end;
+}
+
+.nav-bar-costum {
+      img {
+            height: auto;
+            width: 47px;
+      }
+}
+
+.nav-link-custom {
+      a {
+            padding: 6px 20px;
+            font-size: 14px;
+            color: $customGray;
+      }
+}
+
+.dropdown-menu {
+      border: 0;
+}
+
+.custom-dropdown {
+      @include custom-dropdown(0);
+}
+
+.nav-link-custom_drop:hover .custom-dropdown {
+      display: flex;
+      transition: 1s ease;
+}

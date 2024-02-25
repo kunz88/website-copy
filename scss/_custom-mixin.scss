@@ -1,0 +1,11 @@
+@mixin custom-dropdown($position-left:250px){
+      display: none;
+      flex-direction: column;
+      border-radius:0px;
+      position: absolute;
+      top: 50px;
+      left: $position-left;
+      z-index: 1;
+      transition: 1s ease;
+
+}

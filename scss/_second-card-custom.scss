@@ -1,0 +1,61 @@
+.second-card-custom{
+      border-radius: 2px;
+      transition: 0.4 ease;
+      &:hover{
+            box-shadow: #666;
+            transition: 0.3s ease;
+            transform: translateY(-2px);
+            box-shadow: 0px 0px 20px #66666656;
+      }
+      &:hover img{
+            transition: 1s ease;
+            transform: scale(1.1);
+      }
+      a{
+            text-decoration: none;
+            position: relative;
+            transition: 0.6 ease;
+      }
+      a::after{
+            content: "";
+            background-color: #666;
+            position: absolute;
+            bottom:0;
+            left: 2px;
+            height: 2px;
+            width: 0px;
+            transition: 0.6 ease;
+      }
+      a:hover::after{
+            width: 75px;
+            transition: 0.6 ease;
+      }
+
+}
+.s-card-img-container{
+      max-height:200px;
+      width: auto;
+      overflow: hidden;
+      transition:1s ease;
+}
+.s-card-text{
+      h5{
+            font-weight: 400;
+            color: #222;
+            padding: 0;
+            margin: 0 0 15px 0;
+            line-height: 1.2em;
+      }
+      p{
+            color: #666;
+            font-size: 14px;
+            line-height: 1.6em;
+            font-weight: 300;
+      }
+}
+.card-button{
+      a{
+            color:#222;
+
+      }
+}

@@ -1,0 +1,61 @@
+.custom-video-container {
+      background: url(http://themebubble.com/demo/webify/construction/wp-content/uploads/sites/17/2019/06/x-2-1-1.png) 50% 50%;
+      background-size: cover;
+      video {
+            display: none;
+            height: auto;
+            width: 100%;
+      }
+
+}
+
+.custom-row-video {
+      align-items: center;
+      background-color: #000000b7;
+      
+}
+
+.hero-text-video {
+      h1 {
+            font-size: 25px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.2em;
+      }
+
+      p {
+            margin-bottom: 2px;
+            font-size: 18px;
+            font-weight: 300;
+            margin-bottom: 30px;
+            color: #ffffffba;
+
+      }
+
+      margin-bottom: 10px;
+}
+
+.mini-card {
+      padding: 15px;
+      border: 2px solid rgba(234, 234, 234, .05);
+      min-height: 150px;
+      border-radius: 4px;
+      transition: 0.4s ease;
+
+      h2 {
+            font-size: 48px;
+            color: #fff;
+      }
+
+      p {
+            font-size: 14px;
+            color: #ffffffba;
+
+      }
+      &:hover{
+            border: 2px solid rgba(234, 234, 234, 0.852);
+            transition: 0.4s ease;
+
+
+      }
+}

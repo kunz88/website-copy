@@ -1,0 +1,35 @@
+.container-custom-second-hero {
+      position:relative;
+      height:600px;
+      width: 100%;
+      background-image: url("../img/ruspa.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+}
+
+.second-hero-text {
+      position:absolute;
+      top:0;
+      left: 0;
+      bottom:0;
+      right:0;
+      background-color: rgba(0, 0, 0, 0.492);
+      h1 {
+            font-size: 38px;
+            font-weight: 600;
+            color: #fff;
+            line-height: 1.2em;
+      }
+
+      p {
+            padding: 20px;
+            margin-bottom: 2px;
+            line-height: 1.6em;
+            font-size: 20px;
+            font-weight: 300;
+            margin-bottom: 30px;
+            color: rgba(255, 255, 255, .73);
+
+      }
+}
